@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "commensurability: diagnostics for cell-type label commensurability in spatial omics"
+version: 1.0.0
+type: software
+license: MIT
+date-released: "2026-09-19"
+abstract: >-
+  Diagnostics for testing whether two cell-type labels can legitimately be
+  compared, and for measuring how much a spatial conclusion depends on the
+  definitions used to produce it. Provides three diagnostic layers (label, effect,
+  platform), a sensitivity summary, a reporting audit against a minimal reporting
+  set, and self-contained synthetic demonstrations including a valid null
+  construction. Ships with a test suite and needs no primary data download.
+repository-code: "https://github.com/shenwen0212/commensurability"
+url: "https://github.com/shenwen0212/commensurability"
+keywords:
+  - spatial transcriptomics
+  - cell-type annotation
+  - reproducibility
+  - commensurability
+  - neighbourhood analysis
+  - reporting standards
+  - R
+authors:
+  - given-names: "Wen"
+    family-names: "Shen"
+    affiliation: "the Affiliated Huai'an Hospital of Xuzhou Medical University, the Second People's Hospital of Huai'an, Huai'an, Jiangsu 223002, China"
+  # Add further authors here, in manuscript order, in the same form.
+references:
+  - type: article
+    title: >-
+      Cell-type labels are not interchangeable measurements: definition alignment
+      decides the sign of spatial neighbourhood effects
+    status: in-preparation
+    authors:
+      - given-names: "Wen"
+        family-names: "Shen"
